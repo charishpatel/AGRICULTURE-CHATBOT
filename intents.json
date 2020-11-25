@@ -1,0 +1,74 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered","Hi i need help"],
+         "responses": ["I can Guide you in selling your crops for best rate in banglore. "],
+         "context": [""]
+        },
+        {"tag": "online_offline",
+         "patterns": ["ok","i need to sell crops"],
+         "responses": ["would you like to sell your crops online or offline "],
+         "context": [""]
+        },
+        {"tag": "online ",
+         "patterns": ["online"],
+         "responses": ["Click on the below link to sell your crops online if you are not satisfied send'no' if satisfied send 'yes' https://agmarknet.gov.in/"],
+         "context": [""]
+        },
+        {"tag": "yes",
+         "patterns": ["yes " ],
+         "responses": ["Thanks for contacting us , if needed any help regarding selling crops please use our service :):) "],
+         "context": [""]
+        },
+        {"tag": "No",
+         "patterns": ["No"],
+         "responses": ["Sorry  please check this link bigbasket.com  for best rate"],
+         "context": [""]
+        },
+        {"tag": "offline ",
+         "patterns": ["offline"],
+         "responses": ["please click on this to contact best services in banglore to sell offline dir.indiamart.com"],
+         "context": [""]
+        },
+        {"tag": "Suggestion",
+         "patterns": ["please suggest some more "],
+         "responses": ["please contact them for some more suggestions www.justdail.com"],
+         "context": [""]
+        },
+        {"tag": "rates",
+         "patterns": ["What is the rate of " ],
+         "responses": ["click on this link to know all rates https://agmarknet.gov.in/ "],
+         "context": [""]
+        },
+        {"tag": "transport",
+         "patterns": ["i need transport help for shipping "," i need transport help"],
+         "responses": ["contact them for shipping your goods www.sulekha.com "],
+         "context": [""]
+        },
+        {"tag": "labour",
+         "patterns": ["i need labours for help "," i need labours"],
+         "responses": ["click on this link to scroll.in "],
+         "context": [""]
+        }
+        
+   ]
+}
