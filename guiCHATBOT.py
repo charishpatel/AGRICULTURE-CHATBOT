@@ -1,5 +1,4 @@
-[12: 22
-AM, 8 / 29 / 2020] Pellay 😍😍👩: import nltk
+ import nltk
 from nltk.stem import WordNetLemmatizer
 
 lemmatizer = WordNetLemmatizer()
@@ -29,8 +28,7 @@ def clean_up_sentence(sentence):
 def bag_of_words(sentence, w…
 
 
-[12: 40
-AM, 8 / 29 / 2020] Pellay 😍😍👩: import nltk
+ import nltk
 from nltk.stem import WordNetLemmatizer
 
 c = 0
